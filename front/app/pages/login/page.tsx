@@ -8,7 +8,7 @@ const Login = () => {
   const [error, setError] = useState<string>('');
   const router = useRouter();
 
-  const validUsername = 'rineasy';
+  const validUsername = 'admin';
   const validPassword = 'easywin99@';
 
   const handleSubmit = async (e: FormEvent) => {
